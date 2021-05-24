@@ -1,0 +1,89 @@
+body{
+margin:5px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    align-content: center;
+}
+.gameboard{
+/*background-color: aqua;*/
+box-sizing: border-box;
+width:390px;
+height:390px;
+display:flex;
+flex-wrap: wrap;
+align-content: center;
+margin:15px;
+}
+
+.box{
+    box-sizing: border-box;
+    width:130px;
+    height:130px;
+    font-size:100px;
+    font-family: sans-serif;
+    color:purple;
+    text-align: center;
+   /* border: 1px solid purple; */
+ }
+
+ .box0, .box1, .box3, .box4{
+     border-bottom: 3px solid purple;
+     border-right: 3px solid purple;
+ }
+.box2, .box5{
+    border-bottom: 3px solid purple;
+}
+.box6 , .box7{
+     border-right: 3px solid purple;
+}
+#restart-btn{ 
+box-sizing: border-box;
+width:120px;
+height:50px;
+background-color: purple;
+border-radius: 10px;
+color:#fff;
+font-size:22px;
+font-family: sans-serif;
+outline: none;
+
+}
+
+.btn-player{
+    width:120px;
+height:50px;
+  box-sizing: border-box;
+background-color: purple;
+border-radius: 10px;
+color:#fff;
+font-size:22px;
+font-family: sans-serif;
+ 
+}
+/*
+input{
+    display: none;
+}*/
+
+#playText,h1{
+    color:purple;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/*
+@media only screen and (max-width:500px){
+    body{
+        margin-top:10px;
+    }
+   h1{
+       margin:auto;
+   }
+   #restart-btn{
+       margin-top:10px;
+   }
+}
+*/
